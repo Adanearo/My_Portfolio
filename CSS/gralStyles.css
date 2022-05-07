@@ -1,0 +1,196 @@
+body{
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #EFFFF7;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+img, picture{
+    height: auto;
+    max-width: 100%;
+    min-width: 30%;
+}
+
+h1,h2,h3,h4,h5{
+    color: #36454f;
+}
+
+p{
+    line-height: 150%;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #4B7F52;
+    background-color: #4B7F52;
+    border-width: 2px;
+}
+main{
+    padding: 8px;
+    background-color: #96e8bc28;
+    border-radius: 10px;
+}
+footer{
+    text-align: right;
+    line-height: 90%;
+}
+.all{
+    max-width: 1024px;
+    padding: 60px 30px 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 80px;
+    column-gap: 4%;
+    display: flex;
+    padding: 10px 10px 10px;
+    background-color: #B6F9C9;
+    border-radius: 1000px;
+}
+
+.headerPic{
+    flex-shrink: 0;
+}
+
+.logo, .menuItem{
+    column-gap: 40px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.pic {
+    border-radius: 100%;
+    display: block;
+    width: 100px;
+}
+
+.headerPic .principalName{
+    display: none;
+}
+
+.headerNav{
+    align-items: center;
+    width: 100%;
+}
+
+.principalName {
+    color: #36454f;
+    font-family: "Century Gothic";
+    font-size: 2rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 70%;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    align-self: center;
+    margin-top: 3.5%;
+}
+.principalName:after{
+    content: "";
+    background: #4B7F52;
+    border-radius: 1000px;
+    display: block;
+    height: 7px;
+
+    width: 100%;
+    margin-top: 6%;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.menuItem{
+    color: #36454f;
+    font-size: 1.3rem;
+    margin-top: 3%;
+    font-weight: 600;
+}
+
+.bigBox{
+    margin-bottom: 75px;
+    padding: 30px;
+    background-color: #B6F9C9;
+    border-radius: 20px;
+}
+
+.greating{
+    margin: 0;
+}
+
+.txtLarge{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content1{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-width: 3px;
+}
+.artTitle{
+    font-size: 1.5rem;
+    color: #36454f;
+    margin-bottom: 5px;
+
+}
+
+.tag{
+    font-size: 0.85rem;
+    color: #36454f;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #4B7F52;
+    border-color: #4B7F52;
+    color: #4B7F52;
+    border-radius: 5px;
+}
+.artContent{
+    font-size: 1.2rem;
+}
+.date{
+    font-size: 1rem;
+    font-style: italic;
+}
+.bWith{
+    margin: 0;
+    padding: 5px;
+}
+.pbWith{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding-right: 5px;
+}
+::after, ::before{
+    text-rendering: optimizeLegibility;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}

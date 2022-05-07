@@ -4,57 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izaid Ramos</title>
-<link rel="icon" href="./Imagenes/science_icon.png">
+    <title>Izaid Ramos | Engineer &amp; Geek</title>
+    <link rel="icon" href="./Imagenes/science_icon.png">
+    <link rel="stylesheet" href="./CSS/gralStyles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="./index.html"><img src="./Imagenes/Yo_cuadro.jpeg" alt="Foto Adrian" alt width="200" class=""></a>
-            <span><strong>Adrian Izaid Ramos López</strong></span>
+<div class="all">
+    <header class="header">
+        <div class="headerPic">
+            <a class="logo" href="./index.html">
+                <picture>
+                <img src="./Imagenes/Yo_cuadro.jpeg" alt="Foto Adrian" width="100" class="pic">
+                </picture>
+                <span class="principalName">Adrian Ramos</span>
+            </a>
         </div>
-        <nav>
-            <a href="./Pages/work.html">WORK</a>
-            <a href="./Pages/projects.html">PROJECTS</a>
-            <a href="./Pages/articles.html">ARTICLES</a>
-            <a href="./Pages/contact.html">CONTACT</a>
-        </nav>
+            <div class="headerNav">
+                <a class="logo" href="./index.html">
+                    <span class="principalName">Adrian Ramos</span>
+                </a>
+                <nav class="navigation">
+                    <a class="menuItem" href="./Pages/work.html">WORK</a>
+                    <a class="menuItem" href="./Pages/projects.html">PROJECTS</a>
+                    <a class="menuItem" href="./Pages/articles.html">ARTICLES</a>
+                    <a class="menuItem" href="./Pages/contact.html">CONTACT</a>
+                </nav>
+            </div>
     </header>
+    <div class="bigBox">
+        <h1 class="greating">👋 Hello, my name is Izaid.</h1>
+        <p class="txtLarge">I'm a biochemical engineer and amateur web developer from Coacalco, MX. Currently i'm finishing my studies in engineering, starting a frontend web design certificate and a scientific disseminator in <a href="https://www.instagram.com/vagon.itinerante/" target="_blank">El vagón itinierante</a>. In my spare time I enjoy reading, writing, gaming and learning about all the subjects I like. I'm currently learning about HTML, CSS and JavaScript.</p>
+        <p>I'm on <a href="https://github.com/Adanearo" target="_blank">GitHub</a>, <a href="https://twitter.com/IzaidRamos26" target="_blank">Twitter</a> and <a href="https://www.instagram.com/izaid.ramos26/" target="_blank"> Instagram</a>.</p>
+    </div>
     <main>
-        <div>
-            <h1>👋 Hello, my name is Izaid.</h1>
-            <p>I'm a biochemical engineer and amateur web developer from Coacalco, MX. Currently i'm finishing my studies in engineering, starting a frontend web design certificate and a scientific disseminator in <a href="https://www.instagram.com/vagon.itinerante/" target="_blank">El vagón itinierante</a>. In my spare time I enjoy reading, writing, gaming and learning about all the subjects I like. I'm currently learning about HTML, CSS and JavaScript.</p>
-            <p>I'm on <a href="https://github.com/Adanearo" target="_blank">GitHub</a>, <a href="https://twitter.com/IzaidRamos26" target="_blank">Twitter</a> and <a href="https://www.instagram.com/izaid.ramos26/" target="_blank"> Instagram</a>.</p>
-        </div>
-        <h2>Recent Articles</h2>
-            <hr>
+        <h2 class="content1">Recent Articles</h2>
+            <hr class="content1">
         <article>
-            <h3><a href="#">How to be an Engineer.</a></h3>
-            <a href="#">WikiRam</a>
-            <p>03 May 2022</p>
+            <h3><a class="artTitle" href="#">How to be an Engineer.</a></h3>
+            <a href="#" class="tag">WikiRam</a>
+            <p class="date">03 May 2022</p>
         </article>
             <hr>
         <article>
-            <h3><a href="https://www.instagram.com/p/CTS6sqts6WP/" target="_blank">¡Las plantas también se enferman!</a></h3>
-            <p>Los humanos no son los únicos que se pueden enfermar. Las plantas, que son <em><strong>muy</strong></em> importantes para nosotros, también se ponen malitas. 😔</p>
-            <p>¿Lo sabían? 🥺😳</p>
-            <a href="#">Elvagonitinerante</a>
-            <p>02 May 2022</p>
+            <h3><a class="artTitle" href="https://www.instagram.com/p/CTS6sqts6WP/" target="_blank">¡Las plantas también se enferman!</a></h3>
+            <a href="#" class="tag">Elvagonitinerante</a>
+            <p class="artContent">Los humanos no son los únicos que se pueden enfermar. Las plantas, que son <em><strong>muy</strong></em> importantes para nosotros, también se ponen malitas. 😔</p>
+            <p class="artContent">¿Lo sabían? 🥺😳</p>
+            <p class="date">02 May 2022</p>
         </article>
             <hr>
         <article>
-            <h3><a href="#">How to be an engineer and don't die trying</a></h3>
-            <p>Being an engineering student it's not easy, nonetheless it's a meaningfull experience, if you want to sacrifice some hours of sleep, parties and other common experiences. If you're interested, check out this article.</p>
-            <a href="#">Getintosciencenow</a>
-            <p>22 March 2022</p>
+            <h3><a class="artTitle" href="#">How to be an engineer and don't die trying</a></h3>
+            <a href="#" class="tag">Getintosciencenow</a>
+            <p class="artContent">Being an engineering student it's not easy, nonetheless it's a meaningfull experience, if you want to sacrifice some hours of sleep, parties and other common experiences. If you're interested, check out this article.</p>
+            <p class="date">22 March 2022</p>
         </article>
+        <hr>
     </main>
-    <hr>
     <footer>
         <div>
-            <p>© 2022 Izaid Ramos.</p>
-            <a href="#">Build with HTML</a>
+            <p class="pbWith">© 2022 Izaid Ramos.</p>
+            <a href="#" class="bWith">Build with HTML</a>
         </div>
     </footer>
+</div>
 </body>
 </html>

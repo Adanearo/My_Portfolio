@@ -6,22 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work</title>
     <link rel="icon" href="../Imagenes/science_icon.png">
+    <link rel="stylesheet" href="../CSS/gralStyles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="../index.html"><img src="../Imagenes/Yo_cuadro.jpeg" alt="Foto Adrian" alt width="200" class=""></a>
-            <span>Izaid Ramos</span>
+    <div class="all">
+    <header class="header">
+        <div class="headerPic">
+            <a class="logo" href="../index.html">
+                <picture>
+                <img src="../Imagenes/Yo_cuadro.jpeg" alt="Foto Adrian" width="100" class="pic">
+                </picture>
+                <span class="principalName">Adrian Ramos</span>
+            </a>
         </div>
-        <nav>
-            <a href="./work.html">WORK</a>
-            <a href="./projects.html">PROJECTS</a>
-            <a href="./articles.html">ARTICLES</a>
-            <a href="./contact.html">CONTACT</a>
-        </nav>
+            <div class="headerNav">
+                <a class="logo" href="../index.html">
+                    <span class="principalName">Adrian Ramos</span>
+                </a>
+                <nav class="navigation">
+                    <a class="menuItem" href="./work.html">WORK</a>
+                    <a class="menuItem" href="./projects.html">PROJECTS</a>
+                    <a class="menuItem" href="./articles.html">ARTICLES</a>
+                    <a class="menuItem" href="./contact.html">CONTACT</a>
+                </nav>
+            </div>
     </header>
     <main>
-        <h1>WORK</h1>
+        <h1 class="content1">Work</h1>
         <p>Client projects and other professional work.</p>
         <article>
         <figure>
@@ -38,13 +49,14 @@
             <a href="#">View more</a>
         </div>
         </article>
+        <hr>
     </main>
-    <hr>
     <footer>
         <div>
-            <p>© 2022 Izaid Ramos.</p>
-            <p>Build with HTML</p>
+            <p class="pbWith">© 2022 Izaid Ramos.</p>
+            <a href="#" class="bWith">Build with HTML</a>
         </div>
     </footer>
+</div>
 </body>
 </html>
