@@ -4,26 +4,21 @@ body{
     font-weight: 300;
     background-color: #EFFFF7;
 }
-
 a{
     text-decoration: underline;
     text-decoration-color: transparent;
 }
-
 img, picture{
     height: auto;
     max-width: 100%;
     min-width: 30%;
 }
-
 h1,h2,h3,h4,h5{
     color: #36454f;
 }
-
 p{
     line-height: 150%;
 }
-
 hr{
     display: block;
     margin-top: 0.5px;
@@ -165,6 +160,12 @@ footer{
     border-color: #4B7F52;
     color: #4B7F52;
     border-radius: 5px;
+    transition: 1.5s;
+}
+.tag:hover{
+    background-color: #004F2D;
+    color: white;
+    font-size: 1;
 }
 .artContent{
     font-size: 1.2rem;
