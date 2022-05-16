@@ -57,6 +57,7 @@ footer{
 .headerPic,.flag,.flagTxt{
     flex-shrink: 0;
     transition: 0.5s;
+    align-self: center;
 }
 .flagTxt:hover{
     text-decoration: underline;
@@ -157,7 +158,6 @@ footer{
     border-color: #4B7F52;
     color: #4B7F52;
     border-radius: 5px;
-    transition: 1.5s;
 }
 .tag:hover{
     background-color: #004F2D;
